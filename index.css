@@ -23,3 +23,22 @@ p {
  .spanclass {
      color: aqua;
  }
+
+ a:link {
+     color: #FFF600;
+ }
+
+ a:visited {
+    color: #fff;
+ }
+ a:focus {
+     color: aquamarine;
+ }
+
+ a:hover {
+     color: rebeccapurple;
+ }
+a:active {
+    color: red;
+}
+
