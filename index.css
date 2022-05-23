@@ -25,11 +25,11 @@ p {
  }
 
  a:link {
-     color: #FFF600;
+     color: black;
  }
 
  a:visited {
-    color: #fff;
+    color: rgb(34, 8, 8);
  }
  a:focus {
      color: aquamarine;
@@ -40,5 +40,16 @@ p {
  }
 a:active {
     color: red;
+}
+
+.button {
+    background: #ffe600;
+    color: red;
+    display: inline-block;
+    padding: 20px;
+}
+
+.button:hover {
+    background: red;
 }
 

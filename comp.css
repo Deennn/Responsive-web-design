@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #ffe600;
+}
+header, section {
+    padding: 50px;
+}
+
+header {
+    background: #ffe600;
+    color: #000;
+   
+    text-align: center;
+}
+.section-one {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.section-two {
+    background: rgb(156, 41, 41);
+    color: #000;
+}
+
+.section-one .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    background: #ffe600;
+    color: #000;
+    font-weight: bold;
+}
+
+.section-two .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    background: #ffe600;
+    color: #000;
+    font-weight: bold;
+}
+
+.section-one .btn:hover {
+    background-color: wheat;
+}
